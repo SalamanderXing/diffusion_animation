@@ -1,0 +1,19 @@
+{
+  "name": "diffusion_animation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && mv dist docs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "konva": "^9.2.2",
+    "typeface-roboto": "^1.1.13"
+  }
+}
